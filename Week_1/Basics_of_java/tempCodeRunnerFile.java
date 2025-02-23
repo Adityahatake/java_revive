@@ -1,0 +1,1 @@
+sc.nextLine(); // Consume newline left by nextInt()
