@@ -11,11 +11,10 @@ public class Strings {
         System.out.println(s.substring(7)); // Java!
         System.out.println(s.contains("Java")); // true
 
-//string builder for efficient string manipulation
+        // string builder for efficient string manipulation
         StringBuilder sb = new StringBuilder("Hello");
-sb.append(" Java");
-System.out.println(sb); // Output: Hello Java
-
+        sb.append(" Java");
+        System.out.println(sb); // Output: Hello Java
 
     }
 
