@@ -16,6 +16,8 @@ public class Strings {
         sb.append(" Java");
         System.out.println(sb); // Output: Hello Java
 
+        //this is the basics of string about java
+
     }
 
 }
