@@ -8,7 +8,6 @@ public class factorial_Function {
     }
     public static void main(String[] args) {
 
-        System.out.println("test statement");
         int n =4;
         int fact = factorial( n);
         System.out.println("the factorial of the given value is: "+fact);
