@@ -14,7 +14,7 @@ public class printAllPrimeInRange {
         if(n==2){
            return true;
         }
-        for(int i =2 ; i<Math.sqrt(n); i++){
+        for(int i =2 ; i<=Math.sqrt(n); i++){
             if(n%i==0){ //completely divisible
                 return false;
 
@@ -24,7 +24,7 @@ public class printAllPrimeInRange {
         return true;
     }
     public static void main(String[] args) {
-        int range=12;
+        int range=10;
         printprime(range);
 
 
