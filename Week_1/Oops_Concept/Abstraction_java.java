@@ -5,7 +5,7 @@ interface Janvar {
 
 // Implementing the interface
 class Kutta implements Janvar {
-    @Override
+    
     public void makeSound() {
         System.out.println("Kutta bhokta h ...");
     }
@@ -13,7 +13,7 @@ class Kutta implements Janvar {
 
 // Another class implementing the interface
 class Billi implements Janvar {
-    @Override
+    
     public void makeSound() {
         System.out.println("Billi meow meow karti h...");
         System.out.println("billi mosi bhi hoti h ");

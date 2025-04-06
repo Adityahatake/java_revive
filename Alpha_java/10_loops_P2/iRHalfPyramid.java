@@ -15,7 +15,7 @@ public class iRHalfPyramid {
     }
 
     public static void main(String[] args) {
-        inverted_And_Rotated_Half_Pyramid(40);
+        inverted_And_Rotated_Half_Pyramid(10);
 
     }
 
