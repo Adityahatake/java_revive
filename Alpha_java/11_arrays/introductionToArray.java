@@ -1,4 +1,14 @@
 public class introductionToArray {
+    public static void printArray(int array[]){
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("[" + i + "] = " + array[i]);
+        }
+    } 
+    public static void printArray(String array[]){
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("[" + i + "] = " + array[i]);
+        }
+    } 
 
     public static void main(String[] args) {
         
@@ -23,9 +33,11 @@ public class introductionToArray {
 
         // Printing array elements
         System.out.println("Marks:");
-        for (int i = 0; i < marks.length; i++) {
-            System.out.println("marks[" + i + "] = " + marks[i]);
-        }
+        printArray(marks);
+        System.out.println("numbers:");
+        printArray(numbers);
+        System.out.println("fruits:");
+        printArray(fruits);
 
         // Trying to access an invalid index will cause an exception
         // Uncommenting the line below will throw ArrayIndexOutOfBoundsException
