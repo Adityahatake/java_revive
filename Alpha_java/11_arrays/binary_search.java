@@ -13,11 +13,11 @@ public class binary_search {
                 start = mid + 1;
             } else {// left
                 end = mid - 1;
-
             }
         }
-        return -1;
+        return -1; 
     }
+     //time complexity : O(log[n]) 
 
     public static void main(String[] args) {
         int array[] = { 2, 4, 6, 8, 10, 12, 14 };
@@ -30,5 +30,4 @@ public class binary_search {
         }
 
     }
-
 }
