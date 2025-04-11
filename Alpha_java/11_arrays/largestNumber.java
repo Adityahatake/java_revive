@@ -28,6 +28,5 @@ public class largestNumber {
         int array[]={ 12, 3, 35, 36, 17, 18, 4, 6, 43, 2, 21 };
         printArray(array);
         largest_Number(array);
-    }
-    
+    } 
 }
