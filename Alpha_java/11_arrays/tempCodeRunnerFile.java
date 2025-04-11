@@ -12,7 +12,7 @@ public class printSubarray {
                 System.out.println();
 
             }
-            
+            System.out.println("max sum: ");
             System.out.println();
 
         }
