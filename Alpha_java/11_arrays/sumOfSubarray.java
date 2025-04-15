@@ -1,6 +1,6 @@
 public class sumOfSubarray {
     
-        public static void print_Sub_Array(int array[]) {
+        public static void sum_Of_Sub_Array(int array[]) {
             int cur_sum=0;
             int max_sum=Integer.MIN_VALUE;
             for (int i = 0; i < array.length; i++) {
@@ -28,8 +28,7 @@ public class sumOfSubarray {
         }
     public static void main(String[] args) {
         int array1[] = { 1, 2, 3, 4, 5 };
-        print_Sub_Array(array1);
-        
+        sum_Of_Sub_Array(array1);
     }
 }
 
