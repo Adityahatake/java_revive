@@ -54,6 +54,6 @@ public class CountingSort {
         for (int num : arr) {
             System.out.print(num + " ");
         }
-        scanner.close();
+        scanner.close(); //update 
     }
 }
