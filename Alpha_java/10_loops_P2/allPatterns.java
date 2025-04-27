@@ -1,4 +1,5 @@
 public class allPatterns {
+  // this is to infrom , i will balace both the workout and study from now on (this is the last useless upload)
 
   public static void hollow_Ractangle(int totRows, int totCols) {
     for (int i = 1; i <= totRows; i++) {
