@@ -22,7 +22,7 @@ class ListNode {
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
-public class Solution {
+public class leetcode24 {
     public ListNode swapPairs(ListNode head) {
         // Dummy node to simplify edge cases
         ListNode dummy = new ListNode(0);
