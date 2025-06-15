@@ -28,7 +28,7 @@ public class linearSearch {
     public static void main(String[] args) {
         int numbers[] = { 12, 3, 35, 36, 17, 18, 4, 6, 43, 2, 21 };
         int key = 17;
-        String item = "dahi_Bhalle";
+        String item = "aloo_Paratha";
         String food_Items[] = { "Samose", "chole_Bhature", "chowmein", "dahi_Bhalle", "pizza", "aloo_Paratha" };
 
         printArray(numbers);
