@@ -19,5 +19,7 @@ public class insertionSort {
     public static void main(String[] args) {
         int[] arr = {5, 3, 8, 6, 2};
         insertion_Sort(arr);
+        // complexity n^2;
+
     }
 }

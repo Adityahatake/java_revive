@@ -1,6 +1,6 @@
 public class all_combine {
 
-     public static void insertion_Sort(int arr[]) {
+    public static void insertion_Sort(int arr[]) {
         for (int i = 1; i < arr.length; i++) {
             int curr = arr[i];
             int prev = i - 1;
@@ -16,8 +16,8 @@ public class all_combine {
             System.out.print(arr[j] + " ");
         }
     }
-    
-      public static void selection_sort(int arr[]) {
+
+    public static void selection_sort(int arr[]) {
         for (int turn = 0; turn < arr.length - 1; turn++) {
             int minpos = turn;
             for (int j = turn + 1; j < arr.length; j++) {
@@ -35,8 +35,8 @@ public class all_combine {
         }
     }
 
-      public static void bubble_Sort(int arr[]) {
-        for (int turn = 0; turn < arr.length-1; turn++) {
+    public static void bubble_Sort(int arr[]) {
+        for (int turn = 0; turn < arr.length - 1; turn++) {
             for (int j = 0; j < arr.length - 1 - turn; j++) {
                 if (arr[j] > arr[j + 1]) {
                     // swap
@@ -46,12 +46,11 @@ public class all_combine {
                 }
             }
         }
-        for(int i =0; i<arr.length;i++){
-            System.out.print(arr[i]+" ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
     }
 
-    
     public static void main(String[] args) {
         int arr[] = { 3, 4, 5, 1, 2 };
         bubble_Sort(arr);

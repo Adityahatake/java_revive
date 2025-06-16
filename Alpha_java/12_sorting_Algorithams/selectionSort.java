@@ -20,6 +20,8 @@ public class selectionSort {
     public static void main(String[] args) {
         int arr[] = { 3, 4, 5, 1, 2 };
         selection_sort(arr);
+        // complexity n^2;
+
 
     }
 }
