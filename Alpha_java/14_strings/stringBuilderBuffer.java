@@ -1,7 +1,5 @@
 // Unlike String, both StringBuilder and StringBuffer are mutable — you can modify them without creating a new object every time.
-
 // Use them when you're doing many string operations (like appending in loops).
-
 public class stringBuilderBuffer {
     public static void main(String[] args) {
         //creating a string builder
@@ -18,8 +16,6 @@ public class stringBuilderBuffer {
         sbf.delete(4, 15);
         System.out.println("Modified StringBuilder: " + sb);
         System.out.println("Modified StringBuffer: " + sbf);
-
-        
     }
     
 }
