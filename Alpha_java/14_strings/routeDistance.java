@@ -4,11 +4,11 @@ public class routeDistance {
 
         for(int i=0;i<path.length();i++){
            //west
-           if(path.charAt(i)=='S'){
+           if(path.charAt(i)=='W'){
             x--;
            } 
            //east
-            if(path.charAt(i)=='S'){
+            if(path.charAt(i)=='E'){
             x++;
            } 
            //south 
@@ -16,7 +16,7 @@ public class routeDistance {
             y--;
            } 
            //north
-           if(path.charAt(i)=='S'){
+           if(path.charAt(i)=='N'){
             y++;
            }        
     }
