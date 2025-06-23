@@ -23,5 +23,11 @@ public class Stringbt {
         System.out.println("Hero: " + hero);
 
         sc.close();
+        //concatanation
+        String Fname="Aditya";
+        String Lname = "Daksh";
+        String fullName= Fname + " " + Lname;
+        System.out.println("Fullname is: " +fullName);
+
     }
 }
