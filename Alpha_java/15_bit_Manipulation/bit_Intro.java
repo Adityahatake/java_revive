@@ -4,5 +4,6 @@ public class bit_Intro {
         System.out.println(5&6); //binary and(&)
         System.out.println(5|6); //binary or(|)
         System.out.println(5^6); //binary xor(^)
+        System.out.println(~5); //one's complement(~)
     }
 }
