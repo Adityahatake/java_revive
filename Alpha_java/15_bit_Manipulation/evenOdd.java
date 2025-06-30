@@ -10,7 +10,6 @@ public class evenOdd {
     public static void main(String[] args) {
         int number=5;
         check_Even_Odd(number);
-        check_if_pow_of_two(5);
         
     }
 }

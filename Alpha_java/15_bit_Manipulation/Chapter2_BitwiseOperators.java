@@ -1,7 +1,7 @@
 public class Chapter2_BitwiseOperators {
     public static void main(String[] args) {
         int a = 5;  // 0101 in binary
-        int b = 3;  // 0011 in binary
+        int b = 3;  // 00511 in binary
 
         // AND
         int andResult = a & b;
