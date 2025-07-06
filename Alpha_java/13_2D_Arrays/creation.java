@@ -2,6 +2,7 @@ import java.util.*;
 public class creation {
 
     public static void main(String[] args) {
+        System.out.println("text");
         int matrix[][]=new int[3][3];
         int n=3 , m=3; 
         Scanner sc= new Scanner(System.in);
