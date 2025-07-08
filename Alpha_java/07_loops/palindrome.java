@@ -16,7 +16,6 @@ public class palindrome {
     }
 
     public static void main(String[] args) {
-        System.out.println("test");
         System.out.println(ispalindrome(121));
         System.out.println(ispalindrome(12));
 
