@@ -26,7 +26,7 @@ class Dog extends Animal {
     }
 
     // Overriding method - demonstrating Polymorphism
-    @Override
+    
     public void speak() {
         System.out.println(getName() + " barks.");
     }
