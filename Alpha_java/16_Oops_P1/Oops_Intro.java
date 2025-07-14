@@ -5,6 +5,11 @@ public class Oops_Intro {
         System.out.println(P1.color);
         P1.setTip(3);
         System.out.println(P1.tipSize);
+        BankAccount daksh=new BankAccount();
+        daksh.username="sigmaDaksh";
+        daksh.setpw("strongpw");
+        System.out.println(daksh.username);
+        daksh.getpw();
     }
 }
 class Pen{
@@ -16,5 +21,15 @@ class Pen{
     }
     void setTip(int newTip){
         tipSize=newTip;
+    }
+}
+class BankAccount{
+    public String username;
+    private String password;
+    void setpw(String pw){
+        password=pw;
+    }
+    void getpw(){
+        System.out.println(password);
     }
 }
