@@ -32,7 +32,6 @@ class Dog extends Animal {
     }
 }
 
-// Main class
 public class intro {
 
     public static void main(String[] args) {
