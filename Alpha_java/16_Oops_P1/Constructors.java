@@ -12,16 +12,27 @@ public class Constructors {
 class Student{
     String name;
     int roll;
-    int  marks[] =new int[3];
+    int  marks[];
     Student(){ //non parameterized constructor
         System.out.println(" non parameterized constrctor is called");
     }
     Student(String name,int roll){ //parameterized constructor
+    int  marks[] =new int[3];
+
         this.name=name;
         this.roll=roll;
     }
-    Student(Student s){ //copy constructor
+    // Student(Student s){ // shallow copy constructor
+    // int  marks[] =new int[3];
+    //     this.name=s.name;
+    //     this.roll=s.roll;
+    // }
+     Student(Student s){ // Deep copy constructor
+    int  marks[] =new int[3];
         this.name=s.name;
         this.roll=s.roll;
+        for (int i = 0; i < marks.length; i++) {
+            marks[i]=s.marks[i];
+        }
     }
 }
