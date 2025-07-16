@@ -5,11 +5,14 @@ public class Abstraction {
         Chicken c = new Chicken();
         h.walks();
         c.walks();
-
+        Mustang m1=new Mustang();
     }
 }
 
 abstract class Janwar {
+    Janwar(){
+        System.out.println("Janwar aaliya!");
+    }
     void eats() {
         System.out.println("Janwar eats");
     }
@@ -18,12 +21,23 @@ abstract class Janwar {
 }
 
 class Horse extends Janwar {
+    Horse(){
+        System.out.println("godha aaliya");
+    }
     void walks() {
         System.out.println("walks on 4 legs");
     }
 }
-
+class Mustang extends Horse {
+    Mustang(){
+        System.out.println("premium godha aaliya");
+    }
+    
+}
 class Chicken extends Janwar {
+    Chicken(){
+        System.out.println("Chicken aaliya");
+    }
     void walks() {
         System.out.println("walks on 2 legs");
     }
