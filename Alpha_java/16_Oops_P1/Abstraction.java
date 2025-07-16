@@ -6,6 +6,7 @@ public class Abstraction {
         h.walks();
         c.walks();
         Mustang m1=new Mustang();
+        m1.walks();
     }
 }
 
