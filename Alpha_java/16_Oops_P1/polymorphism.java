@@ -21,7 +21,7 @@ class Add{ //method overloading , (static/compileTime polymorphism)
 }
 class Animals{
       void eats(){
-        System.out.println( "eats");
+        System.out.println( "eats anything");
     }
     void breaths(){
         System.out.println("breaths");

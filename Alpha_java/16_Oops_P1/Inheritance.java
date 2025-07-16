@@ -23,3 +23,11 @@ class fish extends Animals{
         System.out.println(name+" swims");
      }
 }
+
+// Single Inheritance	One class inherits another.
+// Multilevel	Chain of inheritance.
+// Hierarchical	Multiple classes inherit one base class.
+// Multiple	Achieved via interfaces.
+// Hybrid	Combination using interfaces and classes.
+
+
