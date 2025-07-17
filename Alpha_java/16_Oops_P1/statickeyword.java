@@ -1,6 +1,8 @@
 // The static keyword is used for 
 // variables, methods, or blocks that belong 
 // to the class rather than instances(Object).
+//  a static method: can be called without creating an object.
+// Static members are common to all instances of the class
 public class statickeyword {
       public static void main(String[] args) {
         StaticExample obj1 = new StaticExample();
