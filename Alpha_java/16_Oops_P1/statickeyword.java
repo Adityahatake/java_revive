@@ -1,3 +1,6 @@
+// The static keyword is used for 
+// variables, methods, or blocks that belong 
+// to the class rather than instances(Object).
 public class statickeyword {
       public static void main(String[] args) {
         StaticExample obj1 = new StaticExample();
