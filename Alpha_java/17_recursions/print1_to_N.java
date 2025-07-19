@@ -3,7 +3,7 @@ public class print1_to_N {
         printOnetoN(5);
     }
     public static void printOnetoN(int n) {
-        if (n == 1) {
+        if (n == 1){
             System.out.print(" " + 1);
         } else {
             printOnetoN(n - 1);
