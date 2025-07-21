@@ -6,7 +6,7 @@ public class printN_to_1 {
     }
     public static void printNtoOne(int n){
         if(n==1){
-            System.out.println(n);
+            System.out.println(1);
         }else{
              System.out.print(n+" ");
              printNtoOne(n-1);
