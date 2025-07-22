@@ -1,6 +1,6 @@
 public class tiling_problem {
     public static void main(String[] args) { 
-        System.out.println(4); //here floor size is 2*n
+        System.out.println(fill(4)); //here floor size is 2*n
         
     }
         //2*n is floor size
