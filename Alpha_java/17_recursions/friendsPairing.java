@@ -7,12 +7,13 @@ public class friendsPairing {
         if(n==1||n==2){
             return n;
         }
-        // single
-       int fm1=pairing(n-1);
-        // pair
-       int fm2=pairing(n-2);
-        int totways= fm1+(n-1)*fm2;
-       return totways;
+    //     // single
+    //    int fm1=pairing(n-1);
+    //     // pair
+    //    int fm2=pairing(n-2);
+    //     int totways= fm1+(n-1)*fm2;
+    //    return totways;
+    return pairing(n-1)+(n-1)*pairing(n-2);
     }
 }
 /*
