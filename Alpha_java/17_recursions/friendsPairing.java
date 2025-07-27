@@ -2,6 +2,9 @@ public class friendsPairing {
     public static void main(String[] args) {
 
     }
+    public static void pairing() {
+        
+    }
 }
 /*
  * Given n friends, each one can remain single or can be paired
