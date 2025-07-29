@@ -4,9 +4,11 @@ public class Merge_sort{
         printArray(a1);
 
     }
-    public static void mergeSort(int[] arr) {
+    public static void mergeSort(int[] arr, int si , int ei) {
         //base case
-        // int mid= ;
+        int mid= si+(ei-si)/2; //(si+ei)/2
+        mergeSort(arr, si, mid);
+        
         // kaam 
 
     }
