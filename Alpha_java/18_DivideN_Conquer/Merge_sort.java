@@ -3,7 +3,8 @@ public class Merge_sort{
         int[] a1={6,3,9,5,2,8};
         System.out.println("unsorted array:");
         printArray(a1);
-        
+        mergeSort(a1, 0, a1.length);
+        printArray(a1);
 
     }
     public static void mergeSort(int[] arr, int si , int ei) {
