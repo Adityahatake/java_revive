@@ -6,10 +6,12 @@ public class Merge_sort {
         System.out.println("sorted array: ");
         mergeSort(a1, 0, a1.length - 1);
         printArray(a1);
+        //time complexity : O(nlogn)
+        //space complexity : O(n)
 
     }
 
-    public static void mergeSort(int[] arr, int si, int ei) {
+    public static void mergeSort(int[] arr, int si, int ei) { //hre recursion is best appraoch
         // base case
         if (si >= ei) {
             return;
