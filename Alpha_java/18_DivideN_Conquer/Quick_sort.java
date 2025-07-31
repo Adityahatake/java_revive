@@ -3,7 +3,8 @@ public class Quick_sort {
         int arr[] = { 6, 3, 9, 8, 2, 5 };
         quickSort(arr, 0, arr.length-1);
         printArray(arr);
-
+         //time complexity : O(n^2){worst}
+        //space complexity : within 
 
     }
 
