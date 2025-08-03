@@ -16,7 +16,7 @@ public class Quick_sort {
     }
 
     public static void quickSort(int[] arr , int si , int ei) {
-        //base case
+        //base case (just the let the function know when to stop)
         if (si >= ei) {
             return;
         }

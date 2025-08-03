@@ -52,15 +52,16 @@ public class Merge_sort {
         }
 
         // copy temp to og array
-        for (k = 0, i = si; k < temp.length; k++, i++) {
+        for (k = 0, i = si; k < temp.length; k++, i++) { //never seen that kind (woww)
             arr[i] = temp[k];
         }
     }
-
-    public static void printArray(int[] arr) {
+      public static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
 }
+
+
