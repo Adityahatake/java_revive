@@ -3,7 +3,7 @@ public class Merge_sort {
         int[] a1 = { 6, 3, 9, 5, 2, 8 };
         System.out.println("unsorted array:");
         printArray(a1);
-        System.out.println("sorted array: ");
+        System.out.println("sorted  array: ");
         mergeSort(a1, 0, a1.length - 1);
         printArray(a1);
         //time complexity : O(nlogn)
