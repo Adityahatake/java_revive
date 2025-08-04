@@ -2,7 +2,10 @@ public class Rotated_array_search {
     public static void main(String[] args) {
        System.out.println("test");
       int[] a1={4,5,6,0,1,2}; //rotated array (given )
+      int tar=6;
        printArray(a1);
+      int a= searchRotatedArray(a1, tar);
+      System.out.println(a);
     }
     public static void printArray(int[] arr) {
       for (int i = 0; i < arr.length; i++) {
