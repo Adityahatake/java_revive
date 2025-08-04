@@ -28,6 +28,7 @@ public class Quick_sort {
     public static int partition(int[] arr , int si , int ei) {
         int pivot =arr[ei];
         int i =si-1 ; //to make place for els smaller than pivot
+        // Keeps track of "smaller than pivot" region
 
         for(int j=si; j<ei;j++){
             if(arr[j]<=pivot){
