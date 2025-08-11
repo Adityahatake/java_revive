@@ -31,6 +31,7 @@ public class Quick_sort {
         // Keeps track of "smaller than pivot" region
 
         for(int j=si; j<ei;j++){
+            
             if(arr[j]<=pivot){
                 i++;
                 // swap
