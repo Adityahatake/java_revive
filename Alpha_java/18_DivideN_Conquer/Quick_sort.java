@@ -46,8 +46,7 @@ public class Quick_sort {
                 arr[ei]=arr[i]; //pivot =arr[i](wrong)
                 arr[i]=temp;
                 return i;
-
-        
+       
     }
 
 }
