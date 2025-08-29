@@ -1,0 +1,107 @@
+==================================================
+TIME COMPLEXITY – INTERVIEW NOTES
+==================================================
+
+🔹 1. What is Time Complexity?
+- Time complexity tells us how the runtime of an algorithm grows
+  with the size of input (n).
+- It helps to compare algorithms without running them.
+- Expressed using Big-O Notation.
+
+--------------------------------------------------
+🔹 2. Big-O, Big-Ω, and Big-Θ
+- Big-O (O): Worst case time (upper bound).
+- Big-Ω (Ω): Best case time (lower bound).
+- Big-Θ (Θ): Average case / Tight bound.
+
+👉 In interviews, most of the time, we talk about **Big-O**.
+
+--------------------------------------------------
+🔹 3. Common Time Complexities
+- O(1)  → Constant (array access, hashmap get/put)
+- O(log n) → Logarithmic (binary search, tree search)
+- O(n)  → Linear (linear search, traversing array)
+- O(n log n) → Linearithmic (merge sort, quicksort avg)
+- O(n^2) → Quadratic (bubble sort, nested loops)
+- O(2^n) → Exponential (recursive fibonacci)
+- O(n!) → Factorial (traveling salesman brute force)
+
+--------------------------------------------------
+🔹 4. Space Complexity
+- Measures how much extra memory an algorithm uses.
+- Example: 
+   - Iterative Fibonacci → O(1) space
+   - Recursive Fibonacci → O(n) space (call stack)
+
+--------------------------------------------------
+🔹 5. Nested Loops Rule of Thumb
+- Single loop → O(n)
+- Two nested loops → O(n^2)
+- Three nested loops → O(n^3)
+- Loop inside log operation → O(n log n)
+
+--------------------------------------------------
+🔹 6. Time Complexity of Common Data Structures
+- Array Access: O(1)
+- Array Search: O(n)
+- Linked List Access: O(n)
+- Linked List Insert at head: O(1)
+- Stack/Queue Push/Pop: O(1)
+- HashMap Insert/Search/Delete: O(1) average, O(n) worst
+- Binary Search Tree Search: O(log n) (if balanced)
+
+--------------------------------------------------
+🔹 7. Sorting Algorithms (Very Important in Interviews)
+- Bubble Sort → O(n^2)
+- Selection Sort → O(n^2)
+- Insertion Sort → O(n^2), but O(n) if nearly sorted
+- Merge Sort → O(n log n)
+- Quick Sort → O(n log n) avg, O(n^2) worst
+- Heap Sort → O(n log n)
+- Counting Sort → O(n + k) (works only for limited range)
+
+--------------------------------------------------
+🔹 8. Common Interview Questions
+Q1: What is better – O(n) or O(log n)?
+A: O(log n) is usually better for large n, since it grows much slower.
+
+Q2: Why is quicksort preferred over merge sort in practice?
+A: Quicksort is in-place (less memory), faster in practice due to cache efficiency,
+   though worst case is O(n^2).
+
+Q3: Difference between time complexity and space complexity?
+A: Time → How fast the algorithm runs.
+   Space → How much memory it consumes.
+
+Q4: What is amortized analysis?
+A: Sometimes operations are cheap most of the time but expensive occasionally.
+   Example: Dynamic array (ArrayList in Java) resizing.
+   Average per operation → O(1).
+
+Q5: Why is Binary Search O(log n)?
+A: Because each step divides the search space into half.
+
+Q6: What is the best time complexity possible for comparison-based sorting?
+A: O(n log n). That’s why Merge Sort, Heap Sort, Quick Sort are optimal.
+
+--------------------------------------------------
+🔹 9. Growth Rate Comparison
+For input size n = 10, 100, 1000:
+
+n = 10 → O(n) = 10, O(n^2) = 100
+n = 100 → O(n) = 100, O(n^2) = 10,000
+n = 1000 → O(n) = 1000, O(n^2) = 1,000,000
+
+👉 Shows why O(n) is far more scalable than O(n^2).
+
+--------------------------------------------------
+🔹 10. Key Takeaways
+✔ Understand the common time complexities.
+✔ Practice calculating complexity of nested loops & recursion.
+✔ Know complexities of data structures & sorting algorithms.
+✔ Remember tradeoffs: Faster time may mean more memory.
+✔ Always justify your answer with reasoning in interviews.
+
+==================================================
+END OF NOTES
+==================================================
