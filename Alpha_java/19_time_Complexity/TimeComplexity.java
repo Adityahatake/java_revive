@@ -1,7 +1,7 @@
 /*
 ==================================================
  TIME COMPLEXITY NOTES (Java Examples)
- Author: Your Name
+ Author: Aditya Daksh
 ==================================================
 
 📌 What is Time Complexity?
