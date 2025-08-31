@@ -1,5 +1,6 @@
 ==================================================
 TIME COMPLEXITY – INTERVIEW NOTES
+ Author: Aditya Daksh
 ==================================================
 
 🔹 1. What is Time Complexity?
