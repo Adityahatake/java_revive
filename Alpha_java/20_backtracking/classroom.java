@@ -4,6 +4,7 @@ public class classroom {
         int arr[] = new int[5];
         changearr(arr, 0, 1); //base case 
         System.out.println();
+        
         printarray(arr); //final after change
     }
 
@@ -11,8 +12,7 @@ public class classroom {
         // base case
         if (i == arr.length) {
             printarray(arr);
-            return;
-
+            return;   
         }
         // kaam
         arr[i] = val;
