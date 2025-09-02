@@ -1,9 +1,9 @@
 public class classroom {
     public static void main(String[] args) {
-        System.out.println("test");
+        // System.out.println("test");
         int arr[] = new int[5];
-        int num[] = { 1, 2, 3, 4, 5 };
-        printarray(num);
+        changearr(arr, 0, 1);
+        printarray(arr);
     }
 
     public static void changearr(int[] arr, int i, int val) {
