@@ -1,6 +1,6 @@
 public class find_Subset {
     public static void main(String[] args) {
-        System.out.println("Test");
+        // System.out.println("Test");
         String str = "abc";
         findsubset(str, "", 0);
 
