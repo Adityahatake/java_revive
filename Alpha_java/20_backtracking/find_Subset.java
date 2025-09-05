@@ -16,6 +16,5 @@ public class find_Subset {
         findsubset(str, ans + str.charAt(i), i + 1);
         // no choice
         findsubset(str, ans, i + 1);
-
     }
 }
