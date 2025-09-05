@@ -3,6 +3,8 @@ public class find_permutation {
         System.out.println("test");
     }
     public static void permutation(String str) {
-        
+        // base case
+        // kaam 
+        // alt
     }
 }
