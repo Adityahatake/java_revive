@@ -1,7 +1,7 @@
 public class IntroductionToBacktracking {
 
     // Size of the chessboard
-    static final int N = 4;
+    static final int N = 6;
 
     // Function to print the chessboard
     public static void printBoard(int[][] board) {
