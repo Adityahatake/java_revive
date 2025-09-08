@@ -4,6 +4,8 @@ public class find_permutation {
     }
     public static void permutation(String str) {
         // base case
+
+        
         // kaam 
         // alt
     }
