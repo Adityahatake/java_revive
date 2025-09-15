@@ -7,6 +7,6 @@ public class find_permutation {
 
         // kaam 
      
-        // alt
+       
     }
 }
