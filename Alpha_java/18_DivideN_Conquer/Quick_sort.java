@@ -13,6 +13,7 @@ public class Quick_sort {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
+        
     }
 
     public static void quickSort(int[] arr , int si , int ei) {
