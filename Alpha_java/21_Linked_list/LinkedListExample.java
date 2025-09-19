@@ -7,6 +7,7 @@ class Node {
     Node(int data) {
         this.data = data;
         this.next = null;
+
     }
 }
 
@@ -55,6 +56,7 @@ public class LinkedListExample {
         list.add(30);
 
         // Display the list
+        
         list.display();
     }
 }
