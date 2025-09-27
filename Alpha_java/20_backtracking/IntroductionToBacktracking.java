@@ -1,7 +1,7 @@
 public class IntroductionToBacktracking {
 
     // Size of the chessboard
-    static final int N = 6;
+    static final int N = 2;
 
     // Function to print the chessboard
     public static void printBoard(int[][] board) {
@@ -55,7 +55,7 @@ public class IntroductionToBacktracking {
                 board[row][col] = 1; // place queen
 
                 // Recur to place the rest
-                
+
                 result = solveNQueens(board, row + 1) || result;
 
                 // Backtrack: remove queen
