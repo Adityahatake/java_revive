@@ -23,14 +23,14 @@ public class IntroductionToBacktracking {
             }
         }
 
-        // Check upper left diagonal
+        // Check upper left diagonal 
         for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
             if (board[i][j] == 1) {
                 return false;
             }
         }
 
-        // Check upper right diagonal
+        // Check upper right diagonal 
         for (int i = row - 1, j = col + 1; i >= 0 && j < N; i--, j++) {
             if (board[i][j] == 1) {
                 return false;
@@ -55,6 +55,7 @@ public class IntroductionToBacktracking {
                 board[row][col] = 1; // place queen
 
                 // Recur to place the rest
+                
                 result = solveNQueens(board, row + 1) || result;
 
                 // Backtrack: remove queen
