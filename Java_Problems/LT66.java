@@ -13,15 +13,17 @@ public class LT66 {
         // If we're here, all digits were 9, so result is 100...0
         int[] newDigits = new int[n + 1];
         newDigits[0] = 1;
-        return newDigits;
+        return newDigits; //here is the main case 
+
     }
 
     public static void main(String[] args) {
         int[] digits = {9,9};
         int[] result = plusOne(digits);
         System.out.print("Result: ");
-        for (int digit : result) {
+        for (int digit : result) { 
             System.out.print(digit + " ");
+            
         }
     }
 }
