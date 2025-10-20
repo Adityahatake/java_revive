@@ -13,7 +13,8 @@ public class LT66 {
         // If we're here, all digits were 9, so result is 100...0
         int[] newDigits = new int[n + 1];
         newDigits[0] = 1;
-        return newDigits; //here is the main case 
+        return newDigits; //here is 
+        // the main case 
 
     }
 
