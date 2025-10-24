@@ -12,6 +12,7 @@ class Node {
 }
 
 // LinkedList class to handle list operations
+
 class LinkedList {
     Node head; // Head of the list
 
@@ -22,7 +23,7 @@ class LinkedList {
             head = newNode; // First node
         } else {
             Node temp = head;
-            while (temp.next != null) { // Traverse to the end
+            while (temp.next != null) {  // Traverse to the end
                 temp = temp.next;
             }
             temp.next = newNode; // Add new node at the end
