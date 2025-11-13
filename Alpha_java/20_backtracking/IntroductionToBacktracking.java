@@ -62,7 +62,6 @@ public class IntroductionToBacktracking {
                 board[row][col] = 0;
             }
         }
-
         return result;
     }
 
