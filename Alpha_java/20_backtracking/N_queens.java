@@ -4,6 +4,7 @@ public class N_queens {
         //code out v1 
         
     }
+    
     public static void Matrix(int n) {
         for( int i = 0;i<n;i++){
             
