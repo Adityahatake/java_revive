@@ -1,5 +1,8 @@
 import java.util.*;
 public class stack1 {
+    public static void pushToBottom(Stack<Integer> s) {
+        
+    }
     public static void main(String[] args) {
          Stack<Integer> s = new Stack<>();
          s.push(1);
