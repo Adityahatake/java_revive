@@ -16,6 +16,7 @@ public class stack1 {
                     s.push(value);
                     return;
                 }
+                
                 int top = s.pop();
                 pushAtBottom(s, value);
                 s.push(top);
