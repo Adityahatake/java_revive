@@ -13,7 +13,9 @@ class Node {
 
 // LinkedList class to handle list operations
 
+
 class LinkedList {
+    
     Node head; // Head of the list
 
     // Method to add a node to the end
