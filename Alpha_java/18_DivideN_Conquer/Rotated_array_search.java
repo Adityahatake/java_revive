@@ -6,7 +6,9 @@ public class Rotated_array_search {
        printArray(a1);
       int a= searchRotatedArray(a1, tar);
       System.out.println("Found at index");
+      
       System.out.println(a);
+      
     }
     public static void printArray(int[] arr) {
       for (int i = 0; i < arr.length; i++) {
