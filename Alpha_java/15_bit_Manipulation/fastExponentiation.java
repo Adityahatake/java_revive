@@ -8,6 +8,7 @@ public class fastExponentiation {
             a=a*a;
             n=n>>1;
         }
+        
         System.out.println(ans);
     }
     public static void main(String[] args) {
