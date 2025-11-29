@@ -5,6 +5,7 @@ public class Chapter1_BinaryBasics {
         System.out.println("Decimal: " + number);
         System.out.println("Binary: " + Integer.toBinaryString(number));
 
+        
         // Negative Number Representation
         int negative = -23;
         System.out.println("\nNegative Decimal: " + negative);
