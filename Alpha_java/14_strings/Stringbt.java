@@ -13,6 +13,7 @@ public class Stringbt {
         Scanner sc = new Scanner(System.in);
 
         
+        
         // Input for programming language
         System.out.print("Enter the name of your current programming language: ");
         String lang = sc.nextLine();  // Use nextLine to read full input
