@@ -1,6 +1,7 @@
 class Solutionlt31 {
     public void nextPermutation(int[] nums) {
         int n = nums.length;
+        
         int i = n - 2;
 
         // Step 1: Find the first index i where nums[i] < nums[i+1] (from right to left)
