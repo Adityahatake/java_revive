@@ -6,6 +6,7 @@ public class binary_search {
         while (start <= end) {
             int mid = (start + end) / 2;
             if (array[mid] == key) {
+                
                 return mid;
             }
             if (array[mid] < key) {
