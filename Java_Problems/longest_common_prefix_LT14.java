@@ -15,6 +15,7 @@ public class longest_common_prefix_LT14 {
         }
         return prefix;
     }
+    
 
     public static void main(String[] args) {
         String[] strs = { "flower", "flow", "flight" };
