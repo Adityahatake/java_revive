@@ -9,6 +9,7 @@ public class LT66 {
             }
             digits[i] = 0; // Set to 0 and continue
         }
+        
 
         
         // If we're here, all digits were 9, so result is 100...0
