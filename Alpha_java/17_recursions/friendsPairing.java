@@ -16,6 +16,7 @@ public class friendsPairing {
     return pairing(n-1)+(n-1)*pairing(n-2);
     }
 }
+
 /*
  * Given n friends, each one can remain single or can be paired
  * up with some other friend. Each friend can be paired only once.
