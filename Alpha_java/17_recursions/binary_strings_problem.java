@@ -6,6 +6,7 @@ public class binary_strings_problem {
     public static void printStrings(int n , int lastplace , String str) { 
         //base case
         if(n==0){
+            
             System.out.println(str);
             return;
         }
