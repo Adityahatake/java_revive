@@ -14,6 +14,7 @@ public class ReverseNumber {
             number /= 10; // Remove last digit
         }
 
+        
         System.out.println("Reversed number: " + reversed);
     }
 }
