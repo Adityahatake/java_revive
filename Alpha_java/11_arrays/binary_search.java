@@ -5,8 +5,7 @@ public class binary_search {
         int end = array.length - 1;
         while (start <= end) {
             int mid = (start + end) / 2;
-            if (array[mid] == key) {
-                
+            if (array[mid] == key) {  
                 return mid;
             }
             if (array[mid] < key) {
