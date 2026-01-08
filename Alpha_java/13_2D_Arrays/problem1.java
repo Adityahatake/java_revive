@@ -19,6 +19,7 @@ public class problem1 {
             {7, 8, 9}
         };
 
+        
         // Loop through each row
         for (int row = 0; row < matrix.length; row++) {
             int sum = 0; // Initialize sum for this row
@@ -30,7 +31,7 @@ public class problem1 {
 
             // Print the sum of the current row
             System.out.println("Sum of row " + row + ": " + sum);
-        }
+        }   
     }
 }
 
