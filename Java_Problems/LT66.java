@@ -2,8 +2,6 @@ public class LT66 {
     public static int[] plusOne(int[] digits) {
         int n = digits.length;
         
-        
-        
         for(int i = n - 1; i >= 0; i--) {
             if (digits[i] < 9) {
                 digits[i]++;
@@ -11,10 +9,7 @@ public class LT66 {
             }
             digits[i] = 0; // Set to 0 and continue
         }
-        
-
-     
-        
+              
         // If we're here, all digits were 9, so result is 100...0
         int[] newDigits = new int[n + 1];
         newDigits[0] = 1;
