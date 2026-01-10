@@ -14,6 +14,7 @@ public class first_occurance {
     }
 }
 
+
 // need to write a code using recursion 
 // to find the first iccurance of a element in
 // an array
