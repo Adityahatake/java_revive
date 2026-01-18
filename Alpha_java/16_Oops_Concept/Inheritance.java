@@ -24,7 +24,6 @@ class fish extends Animals{
      }
 }
 
-
 // Single Inheritance	One class inherits another.
 // Multilevel	Chain of inheritance.
 // Hierarchical	Multiple classes inherit one base class.

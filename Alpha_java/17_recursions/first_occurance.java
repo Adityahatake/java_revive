@@ -3,6 +3,7 @@ public class first_occurance {
         int arr[]={5,6,7,};
        foccurance(arr, 5, 0);
     }
+    
     public static void foccurance(int[] arr ,int key , int i) {
         if(i==arr.length-1){
             System.out.println("not found bro");
