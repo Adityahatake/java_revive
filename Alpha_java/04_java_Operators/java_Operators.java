@@ -2,12 +2,10 @@ public class java_Operators {
     public static void main(String[] args) {
         // Section: Arithmetic Operators
         System.out.println("Arithmetic Operators:");
-
-        
+      
         // Initialize two integer variables
          int a = 12, b = 3; 
-         
-         
+
         // Addition
         System.out.println("Sum of a and b: " + (a + b)); // Calculates and prints the sum of a and b
 
