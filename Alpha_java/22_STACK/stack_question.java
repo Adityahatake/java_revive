@@ -14,7 +14,8 @@ public class stack_question {
         String str = "Hello";
         System.out.println("Input: " + str);
         System.out.println("Output: " + reverseString(str) + "\n");
-        
+        // Question 2 Output
+        System.out.println();
         // Question 3: Next Greater Element
         System.out.println("Q3: Next Greater Element");
         int[] arr = {1, 5, 0, 3, 4, 5};
@@ -42,17 +43,24 @@ public class stack_question {
         StringBuilder result = new StringBuilder();
         while (!stack.isEmpty()) result.append(stack.pop());
         return result.toString();
+        // Output: "olleH"
     }
 
-    static int[] nextGreaterElement(int[] arr) {
-        int n = arr.length;
-        int[] result = new int[n];
-        java.util.Stack<Integer> stack = new java.util.Stack<>();
-        for (int i = n - 1; i >= 0; i--) {
-            while (!stack.isEmpty() && stack.peek() <= arr[i]) stack.pop();
-            result[i] = stack.isEmpty() ? -1 : stack.peek();
-            stack.push(arr[i]);
+  static int[] nextGreaterElement(int[] arr) {
+    int n = arr.length;
+    int[] result = new int[n];
+    java.util.Stack<Integer> stack = new java.util.Stack<>();
+
+    for (int i = n - 1; i >= 0; i--) {
+        while (!stack.isEmpty() && stack.peek() <= arr[i]) {
+            stack.pop();
         }
-        return result;
+        result[i] = stack.isEmpty() ? -1 : stack.peek();
+        stack.push(arr[i]);
     }
+
+    return result;
+}  
 }
+
+
