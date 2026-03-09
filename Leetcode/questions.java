@@ -1,4 +1,13 @@
     class questions {
+
+        public static void main(String[] args) {
+            questions q = new questions();
+            // Example usage:
+            int[] nums = {2, 7, 11, 15};
+            int target = 9;
+            int[] result = q.twoSum(nums, target);
+            System.out.println("Two Sum Result: " + java.util.Arrays.toString(result));
+        }
         
         // 1. Two Sum
         public int[] twoSum(int[] nums, int target) {
