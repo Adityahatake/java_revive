@@ -2,3 +2,185 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Framework - Zero to Hero Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f4f4f4;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        code {
+            background: #222;
+            color: #0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        pre {
+            background: #222;
+            color: #0f0;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spring Framework</h1>
+        <p>From Zero to Hero - Complete Guide</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>What is Spring Framework?</h2>
+            <p>Spring is an open-source Java framework for building enterprise applications. It provides comprehensive infrastructure support for developing robust, maintainable Java applications with ease.</p>
+            <p><strong>Key Points:</strong></p>
+            <ul>
+                <li>Lightweight and powerful</li>
+                <li>Promotes loose coupling through Dependency Injection (DI)</li>
+                <li>Follows SOLID principles</li>
+                <li>Production-ready and widely used in industry</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Core Components</h2>
+            <ul>
+                <li><strong>Spring Core:</strong> IoC Container and Dependency Injection</li>
+                <li><strong>Spring MVC:</strong> Web framework for building web applications</li>
+                <li><strong>Spring Data:</strong> Data access layer abstraction</li>
+                <li><strong>Spring Security:</strong> Authentication and authorization</li>
+                <li><strong>Spring Boot:</strong> Rapid application development</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Why Use Spring?</h2>
+            <ul>
+                <li>Simplifies Java development</li>
+                <li>Reduces boilerplate code</li>
+                <li>Improves code testability</li>
+                <li>Provides declarative programming through annotations</li>
+                <li>Supports microservices architecture</li>
+                <li>Excellent community support</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Getting Started - Basic Example</h2>
+            <p>Here's a simple Spring Boot application:</p>
+            <pre>import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MySpringApp {
+    public static void main(String[] args) {
+        SpringApplication.run(MySpringApp.class, args);
+    }
+}</pre>
+        </section>
+
+        <section>
+            <h2>Dependency Injection Example</h2>
+            <pre>import org.springframework.stereotype.Service;
+
+@Service
+public class UserService {
+    public void createUser(String name) {
+        System.out.println("User created: " + name);
+    }
+}
+
+// Usage in another class
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Component
+public class UserController {
+    @Autowired
+    private UserService userService;
+    
+    public void handleRequest(String userName) {
+        userService.createUser(userName);
+    }
+}</pre>
+        </section>
+
+        <section>
+            <h2>Common Annotations</h2>
+            <ul>
+                <li><code>@SpringBootApplication</code> - Main entry point</li>
+                <li><code>@Service</code> - Business logic layer</li>
+                <li><code>@Repository</code> - Data access layer</li>
+                <li><code>@Controller</code> - Web request handler</li>
+                <li><code>@Autowired</code> - Dependency injection</li>
+                <li><code>@Component</code> - Generic Spring-managed component</li>
+                <li><code>@Bean</code> - Custom bean definition</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Learning Path</h2>
+            <ol>
+                <li>Learn Java fundamentals</li>
+                <li>Understand IoC and Dependency Injection concepts</li>
+                <li>Master Spring Core Container</li>
+                <li>Learn Spring MVC for web development</li>
+                <li>Explore Spring Boot for rapid development</li>
+                <li>Study Spring Data for database operations</li>
+                <li>Learn Spring Security for authentication</li>
+                <li>Build real-world projects</li>
+            </ol>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Spring Framework Guide | Learn and Build Amazing Applications</p>
+    </footer>
+</body>
+</html>
