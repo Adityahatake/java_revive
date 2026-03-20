@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API with Java - Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        code {
+            background: #f8f8f8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>REST API with Java - A Comprehensive Introduction</h1>
+
+    <div class="section">
+        <h2>What is REST API?</h2>
+        <p><strong>REST (Representational State Transfer)</strong> is an architectural style for designing networked applications. It uses HTTP requests to perform CRUD (Create, Read, Update, Delete) operations on resources. REST APIs are lightweight, scalable, and widely used for building web services.</p>
+    </div>
+
+    <div class="section">
+        <h2>Core Principles of REST</h2>
+        <ul>
+            <li><strong>Client-Server Architecture:</strong> Separation of concerns between client and server</li>
+            <li><strong>Statelessness:</strong> Each request contains all information needed; server doesn't store client context</li>
+            <li><strong>Resource-Based URLs:</strong> Resources are identified by URIs (e.g., <code>/api/users/123</code>)</li>
+            <li><strong>HTTP Methods:</strong> Uses standard HTTP verbs (GET, POST, PUT, DELETE)</li>
+            <li><strong>Representation of Resources:</strong> Data typically in JSON or XML format</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>HTTP Methods in REST</h2>
+        <table border="1" cellpadding="10" style="width:100%; border-collapse: collapse;">
+            <tr style="background: #e8e8e8;">
+                <th>Method</th>
+                <th>Purpose</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td><strong>GET</strong></td>
+                <td>Retrieve data from server</td>
+                <td><code>GET /api/users</code></td>
+            </tr>
+            <tr>
+                <td><strong>POST</strong></td>
+                <td>Create new resource</td>
+                <td><code>POST /api/users</code></td>
+            </tr>
+            <tr>
+                <td><strong>PUT</strong></td>
+                <td>Update entire resource</td>
+                <td><code>PUT /api/users/123</code></td>
+            </tr>
+            <tr>
+                <td><strong>DELETE</strong></td>
+                <td>Delete resource</td>
+                <td><code>DELETE /api/users/123</code></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Building REST APIs with Java</h2>
+        <p>Java provides several frameworks for building REST APIs:</p>
+        <ul>
+            <li><strong>Spring Boot:</strong> Most popular, with <code>@RestController</code> and <code>@RequestMapping</code> annotations</li>
+            <li><strong>Jersey:</strong> Reference implementation of JAX-RS</li>
+            <li><strong>JAX-RS:</strong> Java API for RESTful Web Services</li>
+            <li><strong>Quarkus:</strong> Modern cloud-native framework</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Basic REST API Example with Spring Boot</h2>
+        <p>A simple endpoint that returns user data:</p>
+        <pre><code>@RestController
+@RequestMapping("/api/users")
+public class UserController {
+    
+    @GetMapping("/{id}")
+    public User getUser(@PathVariable Long id) {
+        return userService.findById(id);
+    }
+    
+    @PostMapping
+    public User createUser(@RequestBody User user) {
+        return userService.save(user);
+    }
+    
+    @PutMapping("/{id}")
+    public User updateUser(@PathVariable Long id, @RequestBody User user) {
+        return userService.update(id, user);
+    }
+    
+    @DeleteMapping("/{id}")
+    public void deleteUser(@PathVariable Long id) {
+        userService.delete(id);
+    }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>Key Benefits of REST APIs</h2>
+        <ul>
+            <li>Simple and easy to understand</li>
+            <li>Language and platform independent</li>
+            <li>Scalable and stateless design</li>
+            <li>Uses standard HTTP protocols</li>
+            <li>Easy to test and debug</li>
+            <li>Supports caching for better performance</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Conclusion</h2>
+        <p>REST APIs have become the standard for modern web development. Java, combined with frameworks like Spring Boot, provides a robust and efficient way to build scalable, maintainable REST services. Understanding REST principles is essential for any backend developer.</p>
+    </div>
+</body>
+</html>
