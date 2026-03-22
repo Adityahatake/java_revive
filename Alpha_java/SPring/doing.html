@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Learning Roadmap</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .roadmap {
+            margin-bottom: 40px;
+        }
+        .stage {
+            padding: 20px;
+            margin-bottom: 15px;
+            background: #f5f5f5;
+            border-left: 5px solid #667eea;
+            border-radius: 5px;
+        }
+        .stage h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .stage ul {
+            margin-left: 20px;
+            color: #555;
+            line-height: 1.8;
+        }
+        .project {
+            background: #e8f4f8;
+            border-left: 5px solid #764ba2;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .project h2 {
+            color: #764ba2;
+            margin-bottom: 15px;
+        }
+        .project-details {
+            margin-bottom: 15px;
+        }
+        .project-details strong {
+            color: #333;
+        }
+        code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Spring Framework Learning Roadmap</h1>
+        
+        <div class="roadmap">
+            <div class="stage">
+                <h2>Stage 1: Foundations (Week 1-2)</h2>
+                <ul>
+                    <li>Understand IoC (Inversion of Control) & DI (Dependency Injection)</li>
+                    <li>Learn Bean lifecycle and configuration</li>
+                    <li>Spring Context and Application Context</li>
+                    <li>Annotations: @Component, @Bean, @Autowired</li>
+                </ul>
+            </div>
+
+            <div class="stage">
+                <h2>Stage 2: Spring MVC (Week 3-4)</h2>
+                <ul>
+                    <li>Controller, Service, Repository pattern</li>
+                    <li>Request mapping and HTTP methods</li>
+                    <li>View rendering with templates (Thymeleaf)</li>
+                    <li>Exception handling in web applications</li>
+                </ul>
+            </div>
+
+            <div class="stage">
+                <h2>Stage 3: Data Access & ORM (Week 5-6)</h2>
+                <ul>
+                    <li>Spring Data JPA fundamentals</li>
+                    <li>Entity relationships (One-to-Many, Many-to-Many)</li>
+                    <li>Query methods and JPQL</li>
+                    <li>Database transactions and @Transactional</li>
+                </ul>
+            </div>
+
+            <div class="stage">
+                <h2>Stage 4: REST APIs (Week 7-8)</h2>
+                <ul>
+                    <li>@RestController and @RequestBody</li>
+                    <li>HTTP status codes and ResponseEntity</li>
+                    <li>API versioning and pagination</li>
+                    <li>Request validation with @Valid</li>
+                </ul>
+            </div>
+
+            <div class="stage">
+                <h2>Stage 5: Advanced Topics (Week 9+)</h2>
+                <ul>
+                    <li>Spring Security and authentication</li>
+                    <li>AOP (Aspect-Oriented Programming)</li>
+                    <li>Reactive programming with WebFlux</li>
+                    <li>Microservices architecture</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>📋 Mini Project: Todo Application API</h2>
+            
+            <div class="project-details">
+                <strong>Objective:</strong> Build a simple REST API to manage todos
+            </div>
+
+            <div class="project-details">
+                <strong>Technologies:</strong> Spring Boot, Spring Data JPA, H2 Database, Lombok
+            </div>
+
+            <div class="project-details">
+                <strong>Features:</strong>
+                <ul style="margin-left: 20px; margin-top: 5px;">
+                    <li>Create, Read, Update, Delete todos</li>
+                    <li>Mark todos as completed</li>
+                    <li>Filter todos by status</li>
+                    <li>Pagination support</li>
+                </ul>
+            </div>
+
+            <div class="project-details">
+                <strong>API Endpoints:</strong>
+                <ul style="margin-left: 20px; margin-top: 5px;">
+                    <li><code>POST /api/todos</code> - Create new todo</li>
+                    <li><code>GET /api/todos</code> - Get all todos</li>
+                    <li><code>GET /api/todos/{id}</code> - Get todo by ID</li>
+                    <li><code>PUT /api/todos/{id}</code> - Update todo</li>
+                    <li><code>DELETE /api/todos/{id}</code> - Delete todo</li>
+                </ul>
+            </div>
+
+            <div class="project-details">
+                <strong>Next Steps:</strong>
+                <ul style="margin-left: 20px; margin-top: 5px;">
+                    <li>Add Spring Security for user authentication</li>
+                    <li>Implement categories for todos</li>
+                    <li>Add email notifications</li>
+                    <li>Deploy to cloud (AWS, Heroku)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
