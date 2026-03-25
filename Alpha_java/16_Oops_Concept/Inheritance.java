@@ -6,6 +6,7 @@ public class Inheritance {
         monkey.eats();
         fish shark=new fish();
         shark.name="TralaLeroTralala";
+        
         shark.breaths();
     }
 }
@@ -16,6 +17,7 @@ class Animals{
     }
     void breaths(){
         System.out.println(name+" breaths");
+
     }
 }
 class fish extends Animals{
