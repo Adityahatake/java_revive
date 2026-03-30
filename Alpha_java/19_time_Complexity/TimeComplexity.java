@@ -123,7 +123,6 @@ public class TimeComplexity {
         System.out.print("O(n^2): Bubble Sorted Array = ");
         for (int num : arrForSort) System.out.print(num + " ");
         System.out.println();
-
         System.out.println("O(2^n): Fibonacci(5) = " + fibonacci(5));
     }
 }
