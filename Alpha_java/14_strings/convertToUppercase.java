@@ -16,7 +16,9 @@ public class convertToUppercase {
             if (str.charAt(i) == ' ' && i < str.length() - 1) {
                 sb.append(str.charAt(i)); // Append the space
                 i++; // Move to the next character (start of next word)
+
                 // Convert the first character of the new word to uppercase and append
+                
                 sb.append(Character.toUpperCase(str.charAt(i)));
             } else {
                 // Otherwise, just append the current character as is

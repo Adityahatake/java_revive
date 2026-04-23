@@ -5,7 +5,7 @@ public class stringComparasion {
         String s3= new String("tony");
         System.out.println(s1==s2); //true
         System.out.println(s1==s3); //false
-        System.out.println(s1.equals(s3)); //preffered way to compare if the inside content of the string are same 
+        System.out.println(s1.equals(s3)); //preffered way to compare if the inside content of the string are same(equal) 
 
     }
     
