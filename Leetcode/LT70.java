@@ -21,7 +21,6 @@
 */
 
 class LT70 {
-
     public int climbStairs(int n) {
 
         // Base cases:
