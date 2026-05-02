@@ -16,7 +16,7 @@ public class Revision {
         System.out.println("Your fullname is "+full_name);
         //String methods
         String name1 = "Aditya Daksh";
-        
+
         System.out.println(name1.length());
         System.out.println(name1.toUpperCase());
         System.out.println(name1.toLowerCase());
@@ -28,6 +28,7 @@ public class Revision {
         System.out.println(name1.startsWith("Adi"));
         //Comparing strings
         String name2 = "Shivansh Daksh";
+        
         System.out.println(name1.equals(name2)); //Fails in some cases ex: "Aditya Daksh" and "Aditya Daksh " (with space at the end)
         System.out.println(name1.compareTo(name2)); //better way to compare strings
         //s1>s2 => +ve
