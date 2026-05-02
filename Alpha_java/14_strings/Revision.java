@@ -1,9 +1,9 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 public class Revision {
     public static void main(String[] args){
         String name ="daksh";
         System.out.println(name);
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         // System.out.print("Enter you name: ");
         // String name_input = sc.nextLine();
         // System.out.println("your name is "+name_input);
@@ -16,6 +16,7 @@ public class Revision {
         System.out.println("Your fullname is "+full_name);
         //String methods
         String name1 = "Aditya Daksh";
+        
         System.out.println(name1.length());
         System.out.println(name1.toUpperCase());
         System.out.println(name1.toLowerCase());
@@ -27,8 +28,11 @@ public class Revision {
         System.out.println(name1.startsWith("Adi"));
         //Comparing strings
         String name2 = "Shivansh Daksh";
-        System.out.println(name1.equals(name2));
-        System.out.println(name1.compareTo(name2));
+        System.out.println(name1.equals(name2)); //Fails in some cases ex: "Aditya Daksh" and "Aditya Daksh " (with space at the end)
+        System.out.println(name1.compareTo(name2)); //better way to compare strings
+        //s1>s2 => +ve
+        //s1<s2 => -ve  
+        //s1==s2 => 0
 
     }
 }
