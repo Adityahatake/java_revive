@@ -8,7 +8,6 @@ public class Revision {
         // String name_input = sc.nextLine();
         // System.out.println("your name is "+name_input);
         
-
         //concatenation
         String first_name = "Aditya";
         String last_name = "Daksh";
