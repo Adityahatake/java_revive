@@ -3,7 +3,7 @@ public class StringTypesSummary {
         // String (immutable)
         String s = "Hello";
         s.concat(" World");
-        System.out.println("String: " + s); // Still "Hello"
+        System.out.println("String: " + s);  // Still "Hello"
 
         // StringBuilder (mutable)
         StringBuilder sb = new StringBuilder("Hello");
