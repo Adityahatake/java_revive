@@ -14,11 +14,8 @@ public class printAllPrimeInRange {
         System.out.println();
         System.out.println("the sum is :"+sum);
     }
-    public static void sumprime() {
-        int sum=0;
-
-        
-    }
+   
+   
     public static boolean isPrime(int n) {
         if(n<2){
             return false;
