@@ -9,7 +9,6 @@ class Solutionlt31 {
             i--;
         }
 
-        
 
         // Step 2: If such index found, find j (from right) such that nums[j] > nums[i]
         if (i >= 0) {
