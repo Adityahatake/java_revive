@@ -1,6 +1,4 @@
 import java.util.*;
-
-
 public class reverseinbuilt {
  
     public static void main(String[] args) {
