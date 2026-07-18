@@ -1,12 +1,10 @@
 public class twoSum {
     public static void main(String args[]){
         System.out.println("Test");
-        int arr[]={2,7,11,15};
+        int arr[]={1,7,11,15,2};
         int target=9;
-
-        System.out.println(two_sum(arr, target));;
-
-
+       int ans[]=two_sum(arr, target);
+       System.out.println(ans[0]+" "+ans[1]);
     }
 
     public static int[] two_sum(int nums[], int target){
