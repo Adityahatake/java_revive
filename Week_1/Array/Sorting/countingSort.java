@@ -13,7 +13,6 @@ public class countingSort {
             largest=Math.max(largest, arr[i]);
 
         }
-
         int count[]=new int[largest+1];
         for (int i =0; i<count.length;i++) {
             count[arr[i]]++;       
