@@ -8,12 +8,12 @@ public class bubble_optimized {
             System.out.print(num + " ");
         }
         System.out.print("}");
-
     }
     public static void bubbleopt(int[] arr) {
-                    int swaps=0;
 
                 for (int i = 0; i < arr.length-1; i++) {
+                    int swaps=0;
+
             for (int j =0; j < arr.length-1-i; j++) {
                 if (arr[j] > arr[j+1]) {
                     int temp = arr[j];
