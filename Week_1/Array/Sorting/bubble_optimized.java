@@ -10,7 +10,6 @@ public class bubble_optimized {
         System.out.print("}");
     }
     public static void bubbleopt(int[] arr) {
-
                 for (int i = 0; i < arr.length-1; i++) {
                     int swaps=0;
 
