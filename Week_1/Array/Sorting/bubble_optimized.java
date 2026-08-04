@@ -1,5 +1,6 @@
 public class bubble_optimized {
     public static void main(String[] args) {
+        
         System.out.println("Bubble Sort: ");
         int arr[] = { 2, 3, 5, 1, 4, 3, };
         bubbleopt(arr);
