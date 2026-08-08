@@ -10,6 +10,7 @@ public class buy_And_Sell_Stocks {
         int buyprice = Integer.MAX_VALUE;
         int sellingprice;
         int maxprofit = 0;
+        
         for (int i = 0; i < prices.length; i++) {
             if (buyprice < prices[i]) {// profit case
                 int profit = prices[i] - buyprice;
