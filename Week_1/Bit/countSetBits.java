@@ -8,6 +8,7 @@ public class countSetBits {
             if((n&1)!=0){ //check lsb
                 count++;
             }
+            
             n=n>>1;
         }
         return count;
