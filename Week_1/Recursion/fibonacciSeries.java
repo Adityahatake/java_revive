@@ -3,6 +3,7 @@ public class fibonacciSeries {
         //print n fibonacci number
        System.out.println( print(5));
         System.out.println();
+        //print fibonacci series
         printseries(5);
     }
 
