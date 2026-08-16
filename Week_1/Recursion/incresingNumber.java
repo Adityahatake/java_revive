@@ -10,6 +10,7 @@ public class incresingNumber {
             return;
         }
         if(n==1 ){
+            
             System.out.print(1);
             return;
         }
