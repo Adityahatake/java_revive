@@ -11,6 +11,7 @@ public class first_occurance {
         if(i==arr.length){
             return -1;
         }
+        
         //recursive case
         if(arr[i]==n){
             return i;
