@@ -10,8 +10,7 @@ public class first_occurance {
         //base case
         if(i==arr.length){
             return -1;
-        }
-        
+        }  
         //recursive case
         if(arr[i]==n){
             return i;
