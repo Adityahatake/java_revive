@@ -5,12 +5,12 @@ public class first_occurance {
 
         System.out.println("First occurrence: " + check(arr, 9, 0));
     }
-    
+  
     public static int check(int[] arr , int n , int i) {
         //base case
         if(i==arr.length){
             return -1;
-        }  
+        }
         //recursive case
         if(arr[i]==n){
             return i;

@@ -15,6 +15,7 @@ public class incresingNumber {
             return;
         }
         
+        
         //recursion
         print(n-1);
         System.out.print(" "+n);
