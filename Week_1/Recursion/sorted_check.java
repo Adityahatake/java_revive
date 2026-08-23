@@ -6,6 +6,7 @@ public class sorted_check {
     }
     public static boolean check(int[] arr, int i ) {
         //base case 
+        
         if(i==arr.length-1){
             return true;
         }
