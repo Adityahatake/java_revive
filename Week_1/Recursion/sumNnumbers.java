@@ -5,6 +5,7 @@ public class sumNnumbers {
 
     }
     public static int sum(int n) {
+        
         //base case
         if(n==1){
             return 1;
