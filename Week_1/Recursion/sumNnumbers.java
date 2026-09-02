@@ -10,6 +10,7 @@ public class sumNnumbers {
         if(n==1){
             return 1;
         }
+
         // recursion
         return n+sum(n-1);
 
