@@ -11,6 +11,7 @@ public class decresingNumber {
         
         }else{
             
+            
                     // recursion
         System.out.print(n+" ");
         print(n-1);
