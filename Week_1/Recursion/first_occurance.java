@@ -2,8 +2,9 @@ public class first_occurance {
     public static void main(String[] args) {
         System.out.println("print the first occurance ");
                 int[] arr = {5, 2, 8, 2, 9};
+                int key=9;
 
-        System.out.println("First occurrence: " + check(arr, 9, 0));
+        System.out.println("First occurrence: " + check(arr, key, 0));
     }
   
     public static int check(int[] arr , int n , int i) {
