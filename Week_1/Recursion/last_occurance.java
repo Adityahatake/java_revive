@@ -14,9 +14,9 @@ public class last_occurance {
         }
 
         int isFound = last(arr, key, i + 1);
-        if (isFound == -1 && arr[i] == key) {
+        if (isFound == -1 && arr[i] == key) { //final check
             return i;
         }
-        return isFound;
+        return isFound; //recursion 
     }
 }
