@@ -10,6 +10,7 @@ public class last_occurance {
     public static int last(int[] arr, int key, int i) {
         // base case
         if (i == arr.length) {
+            
             return -1;
         }
 
