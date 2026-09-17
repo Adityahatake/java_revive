@@ -7,6 +7,7 @@ public class last_occurance {
         System.out.println(last(arr1, key, 0));
     }
 
+    
     public static int last(int[] arr, int key, int i) {
         // base case
         if (i == arr.length) {
