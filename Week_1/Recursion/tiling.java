@@ -17,7 +17,6 @@ public class tiling {
 
         int fnm1= tiles(n-1);
 
-        
         //horizontical choice 
         int fnm2=tiles(n-2);
 
