@@ -1,7 +1,7 @@
 public class fastExpo {
     public static void main(String[] args) {
         System.out.println("Fast Exponentiation: ");
-        System.out.println(expo(3, 5));
+        System.out.println(expo(5, 4));
     }
 
     public static int expo(int a, int n) {

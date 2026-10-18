@@ -7,6 +7,7 @@ public class ReverseNumber {
         int number = scanner.nextInt();
         scanner.close();
 
+        
         int reversed = 0;
         while (number != 0) {
             int digit = number % 10; // Extract the last digit
