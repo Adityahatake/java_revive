@@ -2,7 +2,6 @@ public class product_Function {
 
     public static int product(int a , int b ) {
         return a*b;
-        
     }
     public static void main(String[] args) {
         int a =12; 
