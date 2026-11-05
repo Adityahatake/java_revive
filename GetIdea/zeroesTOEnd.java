@@ -2,6 +2,7 @@ public class zeroesTOEnd {
     public static void main(String[] args) {
         System.out.println("Test");
         int[] arr = { 1, 0, 5, 0, 3, 7, 0 };
+        
         moveZeroB(arr);
         moveZeroF(arr);
        
