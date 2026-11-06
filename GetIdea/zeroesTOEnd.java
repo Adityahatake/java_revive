@@ -6,9 +6,6 @@ public class zeroesTOEnd {
         moveZeroB(arr);
         moveZeroF(arr);
        
-
-
-       
     }
 
    public static void moveZeroB(int[] arr) {
@@ -20,7 +17,7 @@ public class zeroesTOEnd {
             int temp = arr[index];
             arr[index] = arr[i];
             arr[i] = temp;
-            
+
             index++;
         }
     }
