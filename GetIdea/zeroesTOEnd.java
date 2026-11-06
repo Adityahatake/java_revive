@@ -20,6 +20,7 @@ public class zeroesTOEnd {
             int temp = arr[index];
             arr[index] = arr[i];
             arr[i] = temp;
+            
             index++;
         }
     }
